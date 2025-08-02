@@ -1,0 +1,12 @@
+{
+    "string": {
+        "name": "string",
+        "sbj_scores": {
+            "additionalProp1": 0.0,
+            "additionalProp2": 0.0,
+            "additionalProp3": 0.0
+        },
+        "average": 0.0,
+        "grade": "F"
+    }
+}
