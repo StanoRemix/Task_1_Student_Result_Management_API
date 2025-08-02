@@ -1,2 +1,8 @@
 __pycache__/
 *.py[cod]
+
+
+digispace/
+venv/
+.env/
+.venv/
