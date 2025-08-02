@@ -11,7 +11,7 @@ def add_student(student: Student):
         if student.name in records:
             raise HTTPException(status_code=400, detail="Student already exists")
         
-        average, grade = calc_average_and_grade(student.sbj_scores)
+        average, grade = calc_average_and_grade(student.subject_scores)
         student.average = average
         student.grade = grade
         

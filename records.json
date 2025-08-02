@@ -8,5 +8,15 @@
         },
         "average": 0.0,
         "grade": "F"
+    },
+    "John Doe": {
+        "name": "John Doe",
+        "subject_scores": {
+            "Math": 88.0,
+            "English": 75.0,
+            "Physics": 91.0
+        },
+        "average": 84.66666666666667,
+        "grade": "B"
     }
 }

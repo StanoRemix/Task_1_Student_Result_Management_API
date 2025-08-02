@@ -3,6 +3,6 @@ from typing import Dict
 
 class Student(BaseModel):
     name: str
-    sbj_scores: Dict[str, float]
+    subject_scores: dict[str, float]
     average: float = 0.0
     grade: str = ""

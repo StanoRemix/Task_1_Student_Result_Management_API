@@ -12,12 +12,12 @@ def save_records(records):
     with open(FILE, "w") as file:
         json.dump(records, file, indent=4)
 
-def calc_average_and_grade(sbj_scores):
-    if not sbj_scores:
+def calc_average_and_grade(subject_scores):
+    if not subject_scores:
         return 0.0, ""
     
-    total = sum(sbj_scores.values())
-    average = total / len(sbj_scores)
+    total = sum(subject_scores.values())
+    average = round(total / len(subject_scores), 2)
     
     if average >= 90:
         grade = "A"
